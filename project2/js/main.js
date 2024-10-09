@@ -5,7 +5,9 @@ function changeFirstP(){
 	      firstP.innerHTML ="Please enter a value";
 	      firstP.style.color = "#ff0000";
 	 }
-	 else
+	 else{
 		 firstP.innerHTML = textBoxEl;
+                 firstP.style.color = "black";
+	 }
 	 
  }
